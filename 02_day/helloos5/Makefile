@@ -6,8 +6,8 @@ default :
 
 # ƒtƒ@ƒCƒ‹¶¬‹K‘¥
 
-ipl.bin : ipl.nas Makefile
-	../../z_tools/nask ipl.nas ipl.bin ipl.lst
+ipl.bin : nakabonne_ipl.nas Makefile
+	../../z_tools/nask nakabonne_ipl.nas ipl.bin ipl.lst
 
 helloos.img : ipl.bin Makefile
 	../../z_tools/edimg   imgin:../../z_tools/fdimg0at.tek \
